@@ -1,0 +1,8 @@
+[00:02:06]: [Join Announcement] 911403692
+[00:02:31]: [Join Announcement] Bizanoe
+[00:03:31]: [Say] (KU_8EfLHmUM) Bizanoe: hai
+[00:03:41]: [Say] (KU_8EfLHmTK) 911403692: hai
+[00:03:43]: [Whisper] (KU_8EfLHmUM) Bizanoe: nihao
+[00:16:04]: [Skin Announcement] 911403692 body_sweatervest_red_firehound
+[00:19:45]: [Leave Announcement] Bizanoe
+[00:19:45]: [Leave Announcement] 911403692

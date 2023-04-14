@@ -1,0 +1,54 @@
+[00:02:30]: [Join Announcement] sxsbrueb
+[00:05:36]: [Join Announcement] 911403692
+[00:05:52]: [Join Announcement] Bizanoe
+[00:06:38]: [Say] (KU_8EfLHmUM) Bizanoe: hai
+[00:06:47]: [Say] (KU_8EfLHmUM) Bizanoe: sm1
+[00:09:24]: [Death Announcement] sxsbrueb was killed by Tallbird. He became a spooky ghost!
+[00:11:01]: [Resurrect Announcement] sxsbrueb was resurrected by Florid Postern.
+[00:19:24]: [Skin Announcement] Bizanoe shovel_feathered
+[00:30:56]: [Death Announcement] Bizanoe was killed by Catcoon. He became a spooky ghost!
+[00:31:52]: [Resurrect Announcement] Bizanoe was resurrected by Florid Postern.
+[00:31:55]: [Death Announcement] sxsbrueb was killed by Tallbird. He became a spooky ghost!
+[00:32:28]: [Resurrect Announcement] sxsbrueb was resurrected by Florid Postern.
+[00:39:31]: [Death Announcement] sxsbrueb was killed by Tallbird. He became a spooky ghost!
+[00:40:23]: [Resurrect Announcement] sxsbrueb was resurrected by Florid Postern.
+[00:42:13]: [Death Announcement] sxsbrueb was killed by Spider. He became a spooky ghost!
+[00:43:20]: [Resurrect Announcement] sxsbrueb was resurrected by Florid Postern.
+[00:47:54]: [Death Announcement] Bizanoe was killed by Starvation. He became a spooky ghost!
+[00:48:30]: [Death Announcement] sxsbrueb was killed by Frog. He became a spooky ghost!
+[00:49:20]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[00:49:28]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[00:52:22]: [Skin Announcement] sxsbrueb legs_winona_frankenstein
+[01:08:55]: [Death Announcement] Bizanoe was killed by Clockwork Knight. He became a spooky ghost!
+[01:10:59]: [Resurrect Announcement] Bizanoe was resurrected by Florid Postern.
+[01:19:51]: [Death Announcement] 911403692 was killed by Hound. She became a spooky ghost!
+[01:20:06]: [Death Announcement] sxsbrueb was killed by Ghost. He became a spooky ghost!
+[01:20:16]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[01:22:43]: [Death Announcement] sxsbrueb was killed by Terrorbeak. He became a spooky ghost!
+[01:22:50]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[01:23:46]: [Resurrect Announcement] 911403692 was resurrected by Florid Postern.
+[01:31:10]: [Death Announcement] sxsbrueb was killed by Spider. He became a spooky ghost!
+[01:31:18]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[01:35:21]: [Skin Announcement] 911403692 hand_workgloves_grey_gainsboro
+[01:40:05]: [Death Announcement] sxsbrueb was killed by Crawling Horror. He became a spooky ghost!
+[01:40:16]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[01:43:14]: [Death Announcement] sxsbrueb was killed by Crawling Horror. He became a spooky ghost!
+[01:43:26]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[01:44:53]: [Death Announcement] sxsbrueb was killed by Cooked Green Cap. He became a spooky ghost!
+[01:45:15]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[01:45:21]: [Death Announcement] sxsbrueb was killed by Fire. He became a spooky ghost!
+[01:45:29]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[01:47:14]: [Skin Announcement] Bizanoe body_buttons_teal_jade
+[01:53:17]: [Death Announcement] Bizanoe was killed by Starvation. He became a spooky ghost!
+[01:56:26]: [Death Announcement] sxsbrueb was killed by Starvation. He became a spooky ghost!
+[01:57:59]: [Leave Announcement] sxsbrueb
+[01:58:01]: [Leave Announcement] Bizanoe
+[01:58:07]: [Leave Announcement] 911403692
+[02:03:06]: [Join Announcement] Bizanoe
+[02:03:10]: [Join Announcement] 911403692
+[02:03:13]: [Join Announcement] sxsbrueb
+[02:03:33]: [Roll Announcement] (KU_8EfLHmUM) Bizanoe 53 (1-100)
+[02:03:33]: [Vote Announcement] regenerate passed
+[02:04:28]: [Leave Announcement] Bizanoe
+[02:04:28]: [Leave Announcement] sxsbrueb
+[02:04:28]: [Leave Announcement] 911403692

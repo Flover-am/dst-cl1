@@ -1,0 +1,15 @@
+[00:01:20]: [Join Announcement] 911403692
+[00:01:56]: [Join Announcement] Bizanoe
+[00:02:25]: [Say] (KU_8EfLHmUM) Bizanoe: 你是谁
+[00:02:30]: [Say] (KU_8EfLHmTK) 911403692: ghost
+[00:02:55]: [Say] (KU_8EfLHmUM) Bizanoe: 您
+[00:03:10]: [Say] (KU_8EfLHmTK) 911403692: fck
+[00:19:43]: [Join Announcement] vui vẻ
+[00:20:27]: [Say] (KU_8EfLHmUM) Bizanoe: 你是谁
+[00:20:56]: [Say] (KU_HQp7A3-n) vui vẻ: 我是小张
+[00:21:23]: [Say] (KU_8EfLHmUM) Bizanoe: 你好
+[00:21:38]: [Say] (KU_8EfLHmUM) Bizanoe: 你是哪里人
+[00:22:11]: [Say] (KU_HQp7A3-n) vui vẻ: 差点死掉了
+[00:23:00]: [Say] (KU_8EfLHmUM) Bizanoe: 你是怎么进入这个服务器的呀
+[00:23:31]: [Say] (KU_HQp7A3-n) vui vẻ: 随便进的
+[00:25:39]: [Leave Announcement] Bizanoe

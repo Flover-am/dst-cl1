@@ -1,15 +1,46 @@
-[00:01:20]: [Join Announcement] 911403692
-[00:01:56]: [Join Announcement] Bizanoe
-[00:02:25]: [Say] (KU_8EfLHmUM) Bizanoe: 你是谁
-[00:02:30]: [Say] (KU_8EfLHmTK) 911403692: ghost
-[00:02:55]: [Say] (KU_8EfLHmUM) Bizanoe: 您
-[00:03:10]: [Say] (KU_8EfLHmTK) 911403692: fck
-[00:19:43]: [Join Announcement] vui vẻ
-[00:20:27]: [Say] (KU_8EfLHmUM) Bizanoe: 你是谁
-[00:20:56]: [Say] (KU_HQp7A3-n) vui vẻ: 我是小张
-[00:21:23]: [Say] (KU_8EfLHmUM) Bizanoe: 你好
-[00:21:38]: [Say] (KU_8EfLHmUM) Bizanoe: 你是哪里人
-[00:22:11]: [Say] (KU_HQp7A3-n) vui vẻ: 差点死掉了
-[00:23:00]: [Say] (KU_8EfLHmUM) Bizanoe: 你是怎么进入这个服务器的呀
-[00:23:31]: [Say] (KU_HQp7A3-n) vui vẻ: 随便进的
-[00:25:39]: [Leave Announcement] Bizanoe
+[00:01:23]: [Join Announcement] Bizanoe
+[00:01:24]: [Join Announcement] 911403692
+[00:01:31]: [Join Announcement] sxsbrueb
+[00:25:16]: [Skin Announcement] sxsbrueb legs_wormwood_shadow
+[01:16:31]: [Skin Announcement] sxsbrueb feet_willow_haunteddoll
+[01:16:38]: [Skin Announcement] 911403692 body_suspenders_yellow_flax
+[01:22:08]: [Death Announcement] sxsbrueb was killed by Starvation. He became a spooky ghost!
+[01:24:10]: [Skin Announcement] Bizanoe legs_wormwood_ice
+[01:24:16]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[02:19:26]: [Skin Announcement] 911403692 feet_waxwell_wizard
+[02:27:17]: [Skin Announcement] sxsbrueb legs_warly_rose
+[02:40:19]: [Skin Announcement] Bizanoe feet_warly_masquerade
+[03:21:33]: [Death Announcement] sxsbrueb was killed by Freezing. He became a spooky ghost!
+[03:22:09]: [Roll Announcement] (KU_3Ep62gGa) sxsbrueb 90 (1-100)
+[03:22:25]: [Roll Announcement] (KU_8EfLHmUM) Bizanoe 40 (1-100)
+[03:26:01]: [Leave Announcement] sxsbrueb
+[03:27:10]: [Skin Announcement] 911403692 feet_webber_lunar
+[03:29:12]: [Join Announcement] sxsbrueb
+[03:30:35]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[03:31:20]: [Leave Announcement] sxsbrueb
+[03:45:40]: [Skin Announcement] Bizanoe feet_wathgrithr_gladiator
+[04:03:14]: [Vote Announcement] rollback passed
+[04:08:35]: [Death Announcement] Bizanoe was killed by Deerclops. She became a spooky ghost!
+[04:09:00]: [Vote Announcement] rollback passed
+[04:16:02]: [Death Announcement] Bizanoe was killed by Freezing. She became a spooky ghost!
+[04:26:07]: [Vote Announcement] rollback passed
+[04:26:50]: [Vote Announcement] rollback passed
+[04:31:27]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[04:34:25]: [Death Announcement] Bizanoe was killed by Deerclops. She became a spooky ghost!
+[04:34:49]: [Vote Announcement] rollback passed
+[04:40:59]: [Death Announcement] 911403692 was killed by Darkness. She became a spooky ghost!
+[04:44:08]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
+[04:44:39]: [Say] (KU_8EfLHmUM) Bizanoe: hai
+[04:44:51]: [Say] (KU_8EfLHmTK) 911403692: DebugSpawn("resurrectionstone")
+[04:45:17]: [Say] (KU_8EfLHmUM) Bizanoe: k
+[04:49:11]: [Skin Announcement] 911403692 legs_wormwood_mushroom
+[04:51:57]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[04:57:48]: [Death Announcement] Bizanoe was killed by Monster Meat. She became a spooky ghost!
+[04:58:22]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[05:06:48]: [Death Announcement] Bizanoe was killed by MacTusk. She became a spooky ghost!
+[05:06:51]: [Death Announcement] 911403692 was killed by Darkness. She became a spooky ghost!
+[05:07:01]: [Vote Announcement] rollback passed
+[05:32:34]: [Skin Announcement] Bizanoe legs_wortox_minotaur
+[05:46:50]: [Leave Announcement] Bizanoe
+[05:55:56]: [Skin Announcement] 911403692 legs_shorts_green_hunters
+[06:18:56]: [Leave Announcement] 911403692
