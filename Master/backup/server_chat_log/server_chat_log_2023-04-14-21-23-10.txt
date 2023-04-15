@@ -1,0 +1,130 @@
+[00:01:24]: [Join Announcement] Bizanoe
+[00:01:25]: [Join Announcement] 911403692
+[00:01:32]: [Join Announcement] sxsbrueb
+[00:25:17]: [Skin Announcement] sxsbrueb legs_wormwood_shadow
+[01:16:32]: [Skin Announcement] sxsbrueb feet_willow_haunteddoll
+[01:16:39]: [Skin Announcement] 911403692 body_suspenders_yellow_flax
+[01:22:09]: [Death Announcement] sxsbrueb was killed by Starvation. He became a spooky ghost!
+[01:24:11]: [Skin Announcement] Bizanoe legs_wormwood_ice
+[01:24:17]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[02:19:27]: [Skin Announcement] 911403692 feet_waxwell_wizard
+[02:27:18]: [Skin Announcement] sxsbrueb legs_warly_rose
+[02:40:20]: [Skin Announcement] Bizanoe feet_warly_masquerade
+[03:21:34]: [Death Announcement] sxsbrueb was killed by Freezing. He became a spooky ghost!
+[03:22:10]: [Roll Announcement] (KU_3Ep62gGa) sxsbrueb 90 (1-100)
+[03:22:26]: [Roll Announcement] (KU_8EfLHmUM) Bizanoe 40 (1-100)
+[03:26:01]: [Leave Announcement] sxsbrueb
+[03:27:11]: [Skin Announcement] 911403692 feet_webber_lunar
+[03:29:13]: [Join Announcement] sxsbrueb
+[03:30:36]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[03:31:21]: [Leave Announcement] sxsbrueb
+[03:45:41]: [Skin Announcement] Bizanoe feet_wathgrithr_gladiator
+[04:03:15]: [Vote Announcement] rollback passed
+[04:08:36]: [Death Announcement] Bizanoe was killed by Deerclops. She became a spooky ghost!
+[04:09:01]: [Vote Announcement] rollback passed
+[04:16:03]: [Death Announcement] Bizanoe was killed by Freezing. She became a spooky ghost!
+[04:26:08]: [Vote Announcement] rollback passed
+[04:26:51]: [Vote Announcement] rollback passed
+[04:31:28]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[04:34:26]: [Death Announcement] Bizanoe was killed by Deerclops. She became a spooky ghost!
+[04:34:50]: [Vote Announcement] rollback passed
+[04:41:00]: [Death Announcement] 911403692 was killed by Darkness. She became a spooky ghost!
+[04:44:09]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
+[04:44:40]: [Say] (KU_8EfLHmUM) Bizanoe: hai
+[04:44:52]: [Say] (KU_8EfLHmTK) 911403692: DebugSpawn("resurrectionstone")
+[04:45:18]: [Say] (KU_8EfLHmUM) Bizanoe: k
+[04:49:12]: [Skin Announcement] 911403692 legs_wormwood_mushroom
+[04:51:58]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[04:57:49]: [Death Announcement] Bizanoe was killed by Monster Meat. She became a spooky ghost!
+[04:58:23]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[05:06:49]: [Death Announcement] Bizanoe was killed by MacTusk. She became a spooky ghost!
+[05:06:52]: [Death Announcement] 911403692 was killed by Darkness. She became a spooky ghost!
+[05:07:02]: [Vote Announcement] rollback passed
+[05:32:35]: [Skin Announcement] Bizanoe legs_wortox_minotaur
+[05:46:51]: [Leave Announcement] Bizanoe
+[05:55:57]: [Skin Announcement] 911403692 legs_shorts_green_hunters
+[06:18:57]: [Leave Announcement] 911403692
+[17:29:40]: [Join Announcement] 911403692
+[17:30:26]: [Join Announcement] sxsbrueb
+[17:38:32]: [Join Announcement] Bizanoe
+[18:01:40]: [Death Announcement] sxsbrueb was killed by Spider Warrior. He became a spooky ghost!
+[18:01:52]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[18:02:00]: [Death Announcement] sxsbrueb was killed by Darkness. He became a spooky ghost!
+[18:03:09]: [Leave Announcement] sxsbrueb
+[18:13:19]: [Skin Announcement] 911403692 legs_woodie_gladiator
+[18:17:05]: [Join Announcement] sxsbrueb
+[18:29:55]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[18:34:58]: [Skin Announcement] Bizanoe body_tweedvest_pink_raspberry
+[18:39:47]: [Death Announcement] sxsbrueb was killed by Dragonfly. He became a spooky ghost!
+[18:39:54]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[18:51:06]: [Skin Announcement] sxsbrueb feet_buckle_shoe_pink_mulberry
+[19:01:14]: [Death Announcement] sxsbrueb was killed by Fire. He became a spooky ghost!
+[19:01:23]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[19:10:52]: [Death Announcement] sxsbrueb was killed by Overheating. He became a spooky ghost!
+[19:11:00]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[19:13:32]: [Death Announcement] sxsbrueb was killed by Overheating. He became a spooky ghost!
+[19:13:38]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[19:15:07]: [Death Announcement] sxsbrueb was killed by Darkness. He became a spooky ghost!
+[19:17:50]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[19:18:53]: [Death Announcement] sxsbrueb was killed by Dragonfly. He became a spooky ghost!
+[19:18:59]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[19:19:51]: [Death Announcement] sxsbrueb was killed by Dragonfly. He became a spooky ghost!
+[19:19:57]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[19:20:31]: [Death Announcement] sxsbrueb was killed by Dragonfly. He became a spooky ghost!
+[19:20:36]: [Vote Announcement] rollback passed
+[19:20:40]: [Death Announcement] Bizanoe was killed by Hound. She became a spooky ghost!
+[19:21:30]: [Skin Announcement] 911403692 body_flannel_green_napier
+[19:22:40]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[19:24:45]: [Leave Announcement] sxsbrueb
+[19:25:59]: [Join Announcement] sxsbrueb
+[19:26:48]: [Vote Announcement] rollback passed
+[19:27:46]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[19:37:01]: [Skin Announcement] Bizanoe cane_harlequin
+[20:11:55]: [Death Announcement] sxsbrueb was killed by Sinkhole. He became a spooky ghost!
+[20:12:31]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[20:24:57]: [Death Announcement] sxsbrueb was killed by Rockjaw. He became a spooky ghost!
+[20:31:29]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[20:37:24]: [Death Announcement] 911403692 was killed by Starvation. She became a spooky ghost!
+[20:37:25]: [Death Announcement] Bizanoe was killed by Overheating. She became a spooky ghost!
+[20:37:42]: [Death Announcement] sxsbrueb was killed by Rockjaw. He became a spooky ghost!
+[20:39:37]: [Death Announcement] sxsbrueb was killed by Overheating. He became a spooky ghost!
+[20:39:46]: [Death Announcement] Bizanoe was killed by Pig Man. She became a spooky ghost!
+[20:40:39]: [Death Announcement] 911403692 was killed by Kelp Fronds. She became a spooky ghost!
+[20:43:07]: [Death Announcement] sxsbrueb was killed by Pig Man. He became a spooky ghost!
+[20:43:55]: [Skin Announcement] Bizanoe hand_shortgloves_red_higgsbury
+[20:48:32]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[20:58:29]: [Death Announcement] sxsbrueb was killed by Beefalo. He became a spooky ghost!
+[20:58:40]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[20:59:22]: [Death Announcement] sxsbrueb was killed by Beefalo. He became a spooky ghost!
+[20:59:33]: [Skin Announcement] 911403692 legs_jeans_black_scribble
+[21:24:10]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[21:27:49]: [Death Announcement] sxsbrueb was killed by Overheating. He became a spooky ghost!
+[21:28:02]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[21:30:55]: [Death Announcement] sxsbrueb was killed by Hound. He became a spooky ghost!
+[21:31:20]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[21:36:59]: [Death Announcement] sxsbrueb was killed by Anenemy. He became a spooky ghost!
+[21:37:11]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[21:37:49]: [Death Announcement] sxsbrueb was killed by Anenemy. He became a spooky ghost!
+[21:37:55]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[21:38:34]: [Death Announcement] sxsbrueb was killed by Anenemy. He became a spooky ghost!
+[21:38:41]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[21:39:36]: [Death Announcement] sxsbrueb was killed by Anenemy. He became a spooky ghost!
+[21:39:45]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[21:41:04]: [Death Announcement] sxsbrueb was killed by Darkness. He became a spooky ghost!
+[21:42:29]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[21:49:15]: [Skin Announcement] Bizanoe feet_captoe_shoe_black_jet
+[21:58:05]: [Death Announcement] sxsbrueb was killed by Pig Man. He became a spooky ghost!
+[21:58:41]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[22:19:41]: [Skin Announcement] sxsbrueb feet_twotone_shoe_red_auburn
+[22:22:21]: [Death Announcement] sxsbrueb was killed by Terrorbeak. He became a spooky ghost!
+[22:22:34]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[22:31:11]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[23:12:04]: [Death Announcement] sxsbrueb was killed by Rockjaw. He became a spooky ghost!
+[23:12:38]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[23:12:46]: [Death Announcement] sxsbrueb was killed by Fire. He became a spooky ghost!
+[23:13:54]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[23:15:43]: [Death Announcement] sxsbrueb was killed by Overheating. He became a spooky ghost!
+[23:15:49]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[00:06:20]: [Death Announcement] sxsbrueb was killed by Darkness. He became a spooky ghost!
+[00:06:43]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[00:06:54]: [Death Announcement] sxsbrueb was killed by Darkness. He became a spooky ghost!
