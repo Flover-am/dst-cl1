@@ -1,32 +1,98 @@
-[01:41:54]: [Join Announcement] sxsbrueb
-[01:43:03]: [Join Announcement] 911403692
-[02:10:20]: [Join Announcement] Bizanoe
-[02:23:06]: [Death Announcement] sxsbrueb was killed by Birchnutter. He became a spooky ghost!
-[02:23:29]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[02:32:07]: [Death Announcement] 911403692 was killed by Freezing. She became a spooky ghost!
-[02:32:25]: [Death Announcement] sxsbrueb was killed by Tentacle. He became a spooky ghost!
-[02:40:03]: [Death Announcement] sxsbrueb was killed by Freezing. He became a spooky ghost!
-[02:41:31]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[02:46:31]: [Death Announcement] 911403692 was killed by Freezing. She became a spooky ghost!
-[02:47:50]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
-[03:13:14]: [Death Announcement] Bizanoe was killed by Blue Hound. She became a spooky ghost!
-[03:13:28]: [Death Announcement] sxsbrueb was killed by Blue Hound. He became a spooky ghost!
-[03:13:29]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
-[03:13:57]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[03:22:56]: [Death Announcement] 911403692 was killed by Blue Hound. She became a spooky ghost!
-[03:23:43]: [Death Announcement] sxsbrueb was killed by Darkness. He became a spooky ghost!
-[03:24:02]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[03:24:25]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
-[03:38:25]: [Leave Announcement] sxsbrueb
-[04:43:36]: [Death Announcement] 911403692 was killed by Blue Hound. She became a spooky ghost!
-[04:44:16]: [Death Announcement] Bizanoe was killed by Varglet. She became a spooky ghost!
-[04:44:26]: [Vote Announcement] rollback passed
-[04:45:23]: [Death Announcement] Bizanoe was killed by Hound. She became a spooky ghost!
-[04:45:24]: [Vote Announcement] rollback passed
-[05:10:53]: [Death Announcement] Bizanoe was killed by Bearger. She became a spooky ghost!
-[05:12:39]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
-[05:17:59]: [Leave Announcement] 911403692
-[05:22:29]: [Death Announcement] Bizanoe was killed by Overheating. She became a spooky ghost!
-[05:22:52]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
-[05:41:08]: [Vote Announcement] rollback passed
-[05:46:39]: [Leave Announcement] Bizanoe
+[00:02:42]: [Join Announcement] Bizanoe
+[00:03:05]: [Join Announcement] sxsbrueb
+[00:05:28]: [Death Announcement] sxsbrueb was killed by Fire. He became a spooky ghost!
+[00:05:54]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[00:05:57]: [Join Announcement] 911403692
+[00:22:17]: [Death Announcement] sxsbrueb was killed by Darkness. He became a spooky ghost!
+[00:23:27]: [Leave Announcement] sxsbrueb
+[00:23:27]: [Leave Announcement] 911403692
+[00:23:27]: [Leave Announcement] Bizanoe
+[00:29:04]: [Join Announcement] sxsbrueb
+[00:29:30]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[00:31:08]: [Join Announcement] 911403692
+[00:34:05]: [Join Announcement] Bizanoe
+[00:35:39]: [Vote Announcement] rollback passed
+[00:39:20]: [Vote Announcement] rollback passed
+[00:44:46]: [Death Announcement] Bizanoe was killed by Fire. She became a spooky ghost!
+[00:45:14]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[00:46:46]: [Death Announcement] sxsbrueb was killed by Darkness. He became a spooky ghost!
+[00:47:11]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[00:47:22]: [Death Announcement] sxsbrueb was killed by Darkness. He became a spooky ghost!
+[00:48:18]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[00:50:21]: [Leave Announcement] sxsbrueb
+[00:52:10]: [Join Announcement] sxsbrueb
+[00:52:50]: [Say] (KU_8EfLHmUM) Bizanoe: jiu
+[00:53:10]: [Say] (KU_8EfLHmUM) Bizanoe: hello
+[00:53:20]: [Whisper] (KU_8EfLHmUM) Bizanoe: hi
+[00:53:32]: [Vote Announcement] rollback passed
+[00:54:52]: [Leave Announcement] sxsbrueb
+[00:56:11]: [Join Announcement] sxsbrueb
+[00:58:13]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[01:06:16]: [Death Announcement] sxsbrueb was killed by Overheating. He became a spooky ghost!
+[01:06:43]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[01:07:41]: [Leave Announcement] sxsbrueb
+[01:07:45]: [Death Announcement] Bizanoe was killed by Overheating. She became a spooky ghost!
+[01:07:53]: [Death Announcement] 911403692 was killed by Red Hound. She became a spooky ghost!
+[01:08:12]: [Vote Announcement] rollback passed
+[01:08:59]: [Join Announcement] sxsbrueb
+[01:10:00]: [Leave Announcement] sxsbrueb
+[01:15:30]: [Death Announcement] Bizanoe was killed by Hound. She became a spooky ghost!
+[01:15:32]: [Vote Announcement] rollback passed
+[02:15:41]: [Vote Announcement] rollback passed
+[02:19:28]: [Vote Announcement] rollback passed
+[02:25:56]: [Death Announcement] Bizanoe was killed by Dragonfly. She became a spooky ghost!
+[02:26:10]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[02:26:31]: [Death Announcement] 911403692 was killed by Dragonfly. She became a spooky ghost!
+[02:26:35]: [Death Announcement] Bizanoe was killed by Dragonfly. She became a spooky ghost!
+[02:27:10]: [Vote Announcement] rollback passed
+[02:30:11]: [Leave Announcement] 911403692
+[02:30:15]: [Leave Announcement] Bizanoe
+[02:31:04]: [Join Announcement] Bizanoe
+[02:31:04]: [Join Announcement] 911403692
+[02:45:54]: [Death Announcement] 911403692 was killed by Dragonfly. She became a spooky ghost!
+[02:46:01]: [Vote Announcement] rollback passed
+[02:52:54]: [Death Announcement] Bizanoe was killed by Dragonfly. She became a spooky ghost!
+[02:53:21]: [Vote Announcement] rollback passed
+[03:05:26]: [Death Announcement] 911403692 was killed by Dragonfly. She became a spooky ghost!
+[03:05:32]: [Death Announcement] Bizanoe was killed by Dragonfly. She became a spooky ghost!
+[03:05:44]: [Vote Announcement] rollback passed
+[03:12:34]: [Death Announcement] Bizanoe was killed by Dragonfly. She became a spooky ghost!
+[03:12:40]: [Death Announcement] 911403692 was killed by Dragonfly. She became a spooky ghost!
+[03:12:49]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[03:13:08]: [Death Announcement] Bizanoe was killed by Dragonfly. She became a spooky ghost!
+[03:13:34]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[03:13:46]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
+[03:14:02]: [Vote Announcement] rollback passed
+[03:25:29]: [Death Announcement] Bizanoe was killed by Fire. She became a spooky ghost!
+[03:25:44]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[03:25:51]: [Death Announcement] 911403692 was killed by Dragonfly. She became a spooky ghost!
+[03:25:55]: [Death Announcement] Bizanoe was killed by Dragonfly. She became a spooky ghost!
+[03:25:55]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
+[03:25:59]: [Death Announcement] 911403692 was killed by Dragonfly. She became a spooky ghost!
+[03:26:41]: [Vote Announcement] rollback passed
+[03:27:42]: [Vote Announcement] rollback passed
+[03:32:52]: [Death Announcement] 911403692 was killed by Fire. She became a spooky ghost!
+[03:33:00]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
+[03:33:43]: [Death Announcement] 911403692 was killed by Dragonfly. She became a spooky ghost!
+[03:33:55]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
+[03:34:57]: [Death Announcement] Bizanoe was killed by Dragonfly. She became a spooky ghost!
+[03:35:03]: [Vote Announcement] rollback passed
+[03:35:07]: [Death Announcement] 911403692 was killed by Fire. She became a spooky ghost!
+[03:42:42]: [Vote Announcement] rollback passed
+[03:49:45]: [Death Announcement] 911403692 was killed by Fire. She became a spooky ghost!
+[03:49:51]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
+[04:09:35]: [Death Announcement] Bizanoe was killed by Terrorbeak. She became a spooky ghost!
+[04:09:47]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[04:13:05]: [Death Announcement] 911403692 was killed by Terrorbeak. She became a spooky ghost!
+[04:13:16]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
+[04:22:53]: [Death Announcement] Bizanoe was killed by Fire. She became a spooky ghost!
+[04:23:14]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[04:23:52]: [Death Announcement] 911403692 was killed by Varglet. She became a spooky ghost!
+[04:24:03]: [Vote Announcement] rollback passed
+[04:24:55]: [Resurrect Announcement] Bizanoe was resurrected by Touch Stone.
+[04:25:01]: [Death Announcement] 911403692 was killed by Red Hound. She became a spooky ghost!
+[04:25:31]: [Resurrect Announcement] 911403692 was resurrected by Touch Stone.
+[05:29:45]: [Vote Announcement] rollback passed
+[05:31:35]: [Vote Announcement] rollback passed
+[06:03:06]: [Leave Announcement] Bizanoe
+[06:07:06]: [Leave Announcement] 911403692
