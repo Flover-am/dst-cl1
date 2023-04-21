@@ -175,5 +175,25 @@ return {
     configuration_options={ amudiao=true, baodiao=1, kong=0, nillots=0, rendiao=2, zbdiao=true },
     enabled=true 
   },
-  ["workshop-1852257480"]={ configuration_options={ horizontal=0, info=true, vertical=-30 }, enabled=true }
+  ["workshop-1852257480"]={ configuration_options={ horizontal=0, info=true, vertical=-30 }, enabled=true },
+  ["workshop-462434129"]={
+    configuration_options={
+      MOD_RESTART_ALLOW_KILL=true,
+      MOD_RESTART_ALLOW_RESTART=true,
+      MOD_RESTART_ALLOW_RESURRECT=true,
+      MOD_RESTART_CD_BONUS=0,
+      MOD_RESTART_CD_KILL=1,
+      MOD_RESTART_CD_MAX=0,
+      MOD_RESTART_CD_RESTART=2,
+      MOD_RESTART_CD_RESURRECT=3,
+      MOD_RESTART_FORCE_DROP_MODE=2,
+      MOD_RESTART_IGNORING_ADMIN=true,
+      MOD_RESTART_MAP_SAVE=1,
+      MOD_RESTART_RESURRECT_HEALTH=0,
+      MOD_RESTART_TRIGGER_MODE=1,
+      MOD_RESTART_WELCOME_TIPS=true,
+      MOD_RESTART_WELCOME_TIPS_TIME=6
+    },
+    enabled=true
+  }
 }
