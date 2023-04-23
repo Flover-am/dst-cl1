@@ -1,34 +1,15 @@
-[00:01:47]: [Join Announcement] Bizanoe
-[00:07:33]: [Join Announcement] sxsbrueb
-[00:12:02]: [Leave Announcement] Bizanoe
-[00:12:07]: [Death Announcement] sxsbrueb was killed by Freezing. He became a spooky ghost!
-[00:13:34]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[00:13:39]: [Say] (KU_3Ep62gGa) sxsbrueb: 1
-[00:13:46]: [Say] (KU_3Ep62gGa) sxsbrueb: restart
-[00:13:46]: [Death Announcement] sxsbrueb was killed by Darkness. He became a spooky ghost!
-[00:14:05]: [Say] (KU_3Ep62gGa) sxsbrueb: #restart
-[00:14:05]: [Announcement] sxsbrueb (Maxwell) restart the game!
-[00:22:53]: [Death Announcement] sxsbrueb was killed by Darkness. She became a spooky ghost!
-[00:26:47]: [Leave Announcement] sxsbrueb
-[00:52:01]: [Join Announcement] sxsbrueb
-[00:52:38]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[00:53:40]: [Death Announcement] sxsbrueb was killed by Crawling Horror. She became a spooky ghost!
-[00:54:29]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[00:57:14]: [Join Announcement] lds
-[00:57:44]: [Say] (KU_3Ep62ifT) lds: #restart
-[00:57:45]: [Announcement] lds (WX-78) restart the game!
-[01:15:05]: [Leave Announcement] sxsbrueb
-[01:17:36]: [Join Announcement] sxsbrueb
-[01:19:18]: [Death Announcement] sxsbrueb was killed by Darkness. She became a spooky ghost!
-[01:19:28]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[01:19:37]: [Death Announcement] sxsbrueb was killed by Batilisk. She became a spooky ghost!
-[01:19:45]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[01:20:01]: [Death Announcement] sxsbrueb was killed by Batilisk. She became a spooky ghost!
-[01:20:06]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[01:32:34]: [Death Announcement] sxsbrueb was killed by Terrorbeak. She became a spooky ghost!
-[01:35:43]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
-[01:47:12]: [Skin Announcement] lds legs_wathgrithr_magma
-[01:50:05]: [Join Announcement] 911403692
-[01:54:29]: [Death Announcement] sxsbrueb was killed by Terrorbeak. She became a spooky ghost!
-[01:56:25]: [Leave Announcement] sxsbrueb
-[01:57:53]: [Join Announcement] sxsbrueb
+[00:01:51]: [Join Announcement] sxsbrueb
+[00:02:24]: [Join Announcement] 911403692
+[00:02:51]: [Join Announcement] lds
+[00:42:28]: [Skin Announcement] 911403692 body_polo_green_pistachio
+[00:52:33]: [Death Announcement] sxsbrueb was killed by Depths Worm. She became a spooky ghost!
+[00:53:03]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[00:53:14]: [Death Announcement] sxsbrueb was killed by Depths Worm. She became a spooky ghost!
+[00:54:05]: [Resurrect Announcement] sxsbrueb was resurrected by Touch Stone.
+[01:45:51]: [Skin Announcement] 911403692 feet_loafers_black_jet
+[01:50:57]: [Skin Announcement] lds body_swimsuit_red_ruby
+[01:50:58]: [Skin Announcement] sxsbrueb body_trimmed_blouse_white_pure
+[02:02:22]: [Death Announcement] sxsbrueb was killed by Rocks. She became a spooky ghost!
+[02:02:44]: [Leave Announcement] lds
+[02:03:10]: [Leave Announcement] 911403692
+[02:03:30]: [Leave Announcement] sxsbrueb
