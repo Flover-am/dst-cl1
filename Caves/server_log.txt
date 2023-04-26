@@ -1,7 +1,7 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Caves/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 551676
-[00:00:00]: Current time: Fri Apr 21 20:34:41 2023
+[00:00:00]: Current time: Wed Apr 26 19:11:17 2023
 
 [00:00:00]: System Name: Linux
 [00:00:00]: Host Name: dfa5de38eebd
@@ -18,7 +18,7 @@
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
-[00:00:00]: THREAD - started 'GAClient' (4138519360)
+[00:00:00]: THREAD - started 'GAClient' (4138433344)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
@@ -26,7 +26,7 @@
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(11000, 12347)
 [00:00:00]: [Steam] SteamGameServer_Init success
-[00:00:00]: ProfileIndex:4.25
+[00:00:00]: ProfileIndex:4.35
 [00:00:00]: [Connect] PendingConnection::Reset(true)
 [00:00:00]: Platform: 1
 [00:00:00]: Network tick rate: U=15(2), D=0
@@ -37,13 +37,13 @@
 [00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
 [00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
 [00:00:00]: cGame::InitializeOnMainThread
-[00:00:00]: THREAD - started 'StreamInput' (4082088768)
 [00:00:00]: Renderer initialize: Okay
 [00:00:00]: AnimManager initialize: Okay
 [00:00:00]: Buffers initialize: Okay
 [00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
 [00:00:00]: GameSpecific initialize: Okay
 [00:00:00]: cGame::StartPlaying
+[00:00:00]: THREAD - started 'StreamInput' (4081036096)
 [00:00:00]: AppVersion::GetArchitecture() x32
 [00:00:00]: LOADING LUA
 [00:00:00]: DoLuaFile scripts/main.lua
@@ -122,7 +122,7 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:01]: Could not load mod_config_data/modconfiguration_workshop-478005098_CLIENT	
 [00:00:01]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.4	
 [00:00:01]: Could not load mod_config_data/modconfiguration_workshop-2788995386_CLIENT	
-[00:00:01]: Loading mod: workshop-2788995386 ( More Useful BOSS Spoils) Version:1.9.2	
+[00:00:01]: Loading mod: workshop-2788995386 ( More Useful BOSS Spoils) Version:2.0.1	
 [00:00:01]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
 [00:00:01]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
 [00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
@@ -378,8 +378,10 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:01]: modimport: ../mods/workshop-2788995386/postinit/nightsword.lua	
 [00:00:01]: modimport: ../mods/workshop-2788995386/postinit/glasscutter.lua	
 [00:00:01]: modimport: ../mods/workshop-2788995386/postinit/pets.lua	
+[00:00:01]: modimport: ../mods/workshop-2788995386/postinit/walrushat.lua	
 [00:00:01]: modimport: ../mods/workshop-2788995386/postinit/deer_antler.lua	
 [00:00:01]: modimport: ../mods/workshop-2788995386/postinit/berrybush.lua	
+[00:00:01]: modimport: ../mods/workshop-2788995386/postinit/oceanfish_season.lua	
 [00:00:01]: modimport: ../mods/workshop-2788995386/postinit/goose_feather.lua	
 [00:00:01]: modimport: ../mods/workshop-2788995386/postinit/malbatross_feather.lua	
 [00:00:01]: modimport: ../mods/workshop-2788995386/main/action.lua	
@@ -500,11 +502,11 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:07]: 	Load FE: done	
 [00:00:07]: Check for write access: TRUE
 [00:00:07]: Check for read access: TRUE
-[00:00:07]: Available disk space for save files: 18528 MB
+[00:00:07]: Available disk space for save files: 18800 MB
+[00:00:07]: THREAD - started 'FilesExistAsyncThread' (4044217152)
+[00:00:07]: FilesExistAsyncThread started (21703 files)...
 [00:00:07]: ModIndex: Load sequence finished successfully.	
 [00:00:07]: Reset() returning
-[00:00:07]: THREAD - started 'FilesExistAsyncThread' (4046330688)
-[00:00:07]: FilesExistAsyncThread started (21693 files)...
 [00:00:08]: [200] Account Communication Success (6)
 [00:00:08]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Caves/save/cached_userid
 [00:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
@@ -551,7 +553,7 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:08]: Not applying level data overrides.	
 [00:00:08]: Found a worldgen override file with these contents:	
 [00:00:08]: 	K: 	override_enabled	 V: 	true	
-[00:00:08]: 	K: 	overrides	 V: 	table: 0x10ea0fb0	
+[00:00:08]: 	K: 	overrides	 V: 	table: 0xfff2540	
 [00:00:08]: 		K: 	basicresource_regrowth	 V: 	always	
 [00:00:08]: 		K: 	ghostsanitydrain	 V: 	none	
 [00:00:08]: 		K: 	portalresurection	 V: 	always	
@@ -565,7 +567,7 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:08]:   contained settings preset DST_CAVE, loading...	
 [00:00:08]: Overwriting savedata with override file.	
 [00:00:08]: Collecting garbage...
-[00:00:08]: lua_gc took 0.07 seconds
+[00:00:08]: lua_gc took 0.10 seconds
 [00:00:08]: ~ShardLuaProxy()
 [00:00:08]: ~cEventLeaderboardProxy()
 [00:00:08]: ~ItemServerLuaProxy()
@@ -574,7 +576,7 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:08]: ~SimLuaProxy()
 [00:00:08]: FilesExistAsyncThread aborted.
 [00:00:08]: ... FilesExistAsyncThread complete
-[00:00:08]: lua_close took 0.15 seconds
+[00:00:08]: lua_close took 0.12 seconds
 [00:00:08]: ReleaseAll
 [00:00:08]: ReleaseAll Finished
 [00:00:08]: cGame::StartPlaying
@@ -656,7 +658,7 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:09]: Could not load mod_config_data/modconfiguration_workshop-478005098	
 [00:00:09]: Loading mod: workshop-478005098 (Craftable Gears) Version:0.0.4	
 [00:00:09]: Could not load mod_config_data/modconfiguration_workshop-2788995386	
-[00:00:09]: Loading mod: workshop-2788995386 ( More Useful BOSS Spoils) Version:1.9.2	
+[00:00:09]: Loading mod: workshop-2788995386 ( More Useful BOSS Spoils) Version:2.0.1	
 [00:00:09]: Could not load mod_config_data/modconfiguration_workshop-378160973	
 [00:00:09]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
 [00:00:09]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
@@ -912,8 +914,10 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:09]: modimport: ../mods/workshop-2788995386/postinit/nightsword.lua	
 [00:00:09]: modimport: ../mods/workshop-2788995386/postinit/glasscutter.lua	
 [00:00:09]: modimport: ../mods/workshop-2788995386/postinit/pets.lua	
+[00:00:09]: modimport: ../mods/workshop-2788995386/postinit/walrushat.lua	
 [00:00:09]: modimport: ../mods/workshop-2788995386/postinit/deer_antler.lua	
 [00:00:09]: modimport: ../mods/workshop-2788995386/postinit/berrybush.lua	
+[00:00:09]: modimport: ../mods/workshop-2788995386/postinit/oceanfish_season.lua	
 [00:00:09]: modimport: ../mods/workshop-2788995386/postinit/goose_feather.lua	
 [00:00:09]: modimport: ../mods/workshop-2788995386/postinit/malbatross_feather.lua	
 [00:00:09]: modimport: ../mods/workshop-2788995386/main/action.lua	
@@ -971,7 +975,7 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:10]: bloom_enabled	true	
 [00:00:10]: OnFilesLoaded()	
 [00:00:10]: OnUpdatePurchaseStateComplete	
-[00:00:10]: Loading world: session/016F6A97DBD9F1D7/0000000228	
+[00:00:10]: Loading world: session/016F6A97DBD9F1D7/0000000272	
 [00:00:10]: Save file is at version 5.141	
 [00:00:10]: Klump load on boot started.	
 [00:00:10]: Klump files loaded: 	0	
@@ -1034,711 +1038,328 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
 [00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
-[00:00:13]: 	LOAD BE	
+[00:00:14]: 	LOAD BE	
 [00:00:28]: 	LOAD BE: done	
 [00:00:28]: Begin Session: 016F6A97DBD9F1D7
 [00:00:28]: saving to server_temp/server_save	
-[00:00:28]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_1.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_2.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_3.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_4.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_5.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_6.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_7.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_8.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_9.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_10.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_11.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_12.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_13.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_14.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_15.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_16.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_17.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_18.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_19.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_20.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_21.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_22.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-623749604/minimap/storeroom.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
-[00:00:28]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
-[00:00:28]: Loading 19 new character(s)	
-[00:00:29]: Total 19 character(s) loaded	
-[00:00:36]: Loading Nav Grid	
-[00:00:36]: World generated on build 551676 with save version: 5.141, using seed: 1681418949	
-[00:00:36]: setting 	summerlength	15	
-[00:00:36]: setting 	cavemoonphase	half	
-[00:00:36]: setting 	iscavefullmoon	false	
-[00:00:36]: setting 	isnightmaredawn	false	
-[00:00:36]: setting 	elapseddaysinseason	10	
-[00:00:36]: setting 	isfullmoon	false	
-[00:00:36]: setting 	moisture	3945.3061523438	
-[00:00:36]: setting 	cavephase	dusk	
-[00:00:36]: setting 	iscavewaxingmoon	true	
-[00:00:36]: setting 	isnightmarewild	true	
-[00:00:36]: setting 	nightmaretimeinphase	0.33174850711415	
-[00:00:36]: setting 	precipitationrate	0.15487087777058	
-[00:00:36]: setting 	iswet	false	
-[00:00:36]: setting 	isnewmoon	false	
-[00:00:36]: setting 	precipitation	rain	
-[00:00:36]: setting 	israining	true	
-[00:00:36]: setting 	isnightmarewarn	false	
-[00:00:36]: setting 	iswinter	false	
-[00:00:36]: setting 	season	spring	
-[00:00:36]: setting 	remainingdaysinseason	10	
-[00:00:36]: setting 	winterlength	15	
-[00:00:36]: setting 	iscaveday	false	
-[00:00:36]: setting 	moistureceil	4010.0705566406	
-[00:00:36]: setting 	isday	false	
-[00:00:36]: setting 	springlength	20	
-[00:00:36]: setting 	wetness	0.76094245910645	
-[00:00:36]: setting 	iscavedusk	true	
-[00:00:36]: setting 	isalterawake	false	
-[00:00:36]: setting 	isnightmarecalm	false	
-[00:00:36]: setting 	isnight	true	
-[00:00:36]: setting 	isdusk	false	
-[00:00:36]: setting 	isspring	true	
-[00:00:36]: setting 	isautumn	false	
-[00:00:36]: setting 	issnowing	false	
-[00:00:36]: setting 	iswaxingmoon	true	
-[00:00:36]: setting 	phase	night	
-[00:00:36]: setting 	snowlevel	0	
-[00:00:36]: setting 	issnowcovered	false	
-[00:00:36]: setting 	autumnlength	20	
-[00:00:36]: setting 	pop	1	
-[00:00:36]: setting 	nightmaretime	499.76227606712	
-[00:00:36]: setting 	seasonprogress	0.5	
-[00:00:36]: setting 	moonphase	new	
-[00:00:36]: setting 	nightmarephase	wild	
-[00:00:36]: setting 	cycles	185	
-[00:00:36]: setting 	timeinphase	0.52736803690592	
-[00:00:36]: setting 	iscavenight	false	
-[00:00:36]: setting 	iscavenewmoon	false	
-[00:00:36]: setting 	issummer	false	
-[00:00:36]: setting 	temperature	18	
-[00:00:36]: setting 	time	0.57618401845296	
-[00:00:36]: [Shard] Secondary shard is waiting for LUA...
-[00:00:36]: OVERRIDE: setting	resettime	to	none	
-[00:00:36]: OVERRIDE: setting	basicresource_regrowth	to	always	
-[00:00:36]: OVERRIDE: setting	portalresurection	to	always	
-[00:00:36]: OVERRIDE: setting	ghostsanitydrain	to	none	
-[00:00:38]: ----------------- HEALTH INFO WARNING ------------------	
-[00:00:38]: Some objects are not supported by the mod.	
-[00:00:38]: Unknown objects: daywalker	
-[00:00:38]: You can enable these objects if you change the option "Unknown Objects".	
-[00:00:38]: See more info at http://steamcommunity.com/workshop/filedetails/discussion/375859599/343787283764426976/	
-[00:00:38]: --------------------------------------------------------	
-[00:00:44]: SWITCHING 	false	
-[00:00:44]: Reconstructing topology	
-[00:00:44]: 	...Sorting points	
-[00:00:44]: 	...Sorting edges	
-[00:00:44]: 	...Connecting nodes	
-[00:00:44]: 	...Validating connections	
-[00:00:45]: 	...Housekeeping	
-[00:00:45]: 	...Done!	
-[00:00:45]: 1 uploads added to server. From server_temp
-[00:00:45]: About to start a shard with these settings:
-[00:00:45]:   ShardName: Caves
-[00:00:45]:   ShardID: 4009938005
-[00:00:45]:   ShardRole: SECONDARY
-[00:00:45]:   MasterHost: 127.0.0.1
-[00:00:45]:   MasterBind: (null)
-[00:00:45]:   MasterPort: 10998
-[00:00:45]: [Shard] Connecting to master...
-[00:00:45]: Telling Client our new session identifier: 016F6A97DBD9F1D7
-[00:00:45]: Check for write access: TRUE
-[00:00:45]: Check for read access: TRUE
-[00:00:45]: Available disk space for save files: 18528 MB
-[00:00:45]: ModIndex: Load sequence finished successfully.	
-[00:00:45]: Reset() returning
-[00:00:45]: [Shard] Connection to master failed. Waiting to reconnect...
-[00:00:45]: Validating portal[2] <-> 1[2] (inactive)	
-[00:00:45]: Validating portal[3] <-> 1[3] (inactive)	
-[00:00:45]: Validating portal[9] <-> 1[9] (inactive)	
-[00:00:45]: Validating portal[7] <-> 1[7] (inactive)	
-[00:00:45]: Validating portal[6] <-> 1[6] (inactive)	
-[00:00:45]: Validating portal[1] <-> 1[1] (inactive)	
-[00:00:45]: Validating portal[8] <-> 1[8] (inactive)	
-[00:00:45]: Validating portal[5] <-> 1[5] (inactive)	
-[00:00:45]: Validating portal[4] <-> 1[4] (inactive)	
-[00:00:45]: Validating portal[10] <-> 1[10] (inactive)	
-[00:00:45]: Could not find anim build FROMNUM
-[00:00:50]: About to start a shard with these settings:
-[00:00:50]:   ShardName: Caves
-[00:00:50]:   ShardID: 4009938005
-[00:00:50]:   ShardRole: SECONDARY
-[00:00:50]:   MasterHost: 127.0.0.1
-[00:00:50]:   MasterBind: (null)
-[00:00:50]:   MasterPort: 10998
-[00:00:50]: [Shard] Connecting to master...
-[00:00:50]: [Shard] Sending secondary shard information to master...
-[00:00:50]: Received MasterInfoPacket row b9148e67466cf2e865440e97a8d70c24 region ap-east-1
-[00:00:50]: Obtaining secondary shard IP from ap-east-1 lobby
-[00:00:51]: [Shard] secondary shard is now ready!
-[00:00:51]: World 1 is now connected	
-[00:00:51]: [SyncWorldSettings] Sending ResyncWorldSettings.	
-[00:00:51]: Validating portal[2] <-> 1[2] (active)	
-[00:00:51]: Validating portal[3] <-> 1[3] (active)	
-[00:00:51]: Validating portal[9] <-> 1[9] (active)	
-[00:00:51]: Validating portal[7] <-> 1[7] (active)	
-[00:00:51]: Validating portal[6] <-> 1[6] (active)	
-[00:00:51]: Validating portal[1] <-> 1[1] (active)	
-[00:00:51]: Validating portal[8] <-> 1[8] (active)	
-[00:00:51]: Validating portal[5] <-> 1[5] (active)	
-[00:00:51]: Validating portal[4] <-> 1[4] (active)	
-[00:00:51]: Validating portal[10] <-> 1[10] (active)	
-[00:00:51]: [SyncWorldSettings] recieved world settings from master shard.	true	
-[00:00:51]: [SyncWorldSettings] applying portalresurection = always from master shard.	
-[00:00:51]: component hauntable already exists on entity 102735 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
-[00:00:51]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
-[00:00:51]: [SyncWorldSettings] applying resettime = none from master shard.	
-[00:00:51]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
-[00:00:51]: [SyncWorldSettings] recieved world settings from master shard.	true	
-[00:00:51]: [SyncWorldSettings] applying portalresurection = always from master shard.	
-[00:00:51]: component hauntable already exists on entity 102735 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
-[00:00:51]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
-[00:00:51]: [SyncWorldSettings] applying resettime = none from master shard.	
-[00:00:51]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
-[00:00:52]: [Shard] secondary shard LUA is now ready!
-[00:00:52]: Sim paused
-[00:01:23]: [Shard] Received forward request #1 for (KU_3Ep62gGa)
-[00:01:23]: Sim unpaused
-[00:01:29]: New incoming connection 211.162.81.112|41565 <9022140779092307499>
-[00:01:29]: Client connected from 211.162.81.112|41565 <9022140779092307499>
-[00:01:29]: ValidateGameSessionToken GUID<9022140779092307499>
-[00:01:30]: Client authenticated: (KU_3Ep62gGa) sxsbrueb
-[00:01:30]: [Steam] Authenticated host '76561199200776790'
-[00:01:31]: There is no active event to validate against.
-[00:01:31]: [Shard] Completed incoming migration #1 for (KU_3Ep62gGa)
-[00:01:55]: [Shard] Received forward request #2 for (KU_8EfLHmTK)
-[00:02:00]: New incoming connection 211.162.81.112|53668 <7348851856524000107>
-[00:02:00]: Client connected from 211.162.81.112|53668 <7348851856524000107>
-[00:02:00]: ValidateGameSessionToken GUID<7348851856524000107>
-[00:02:01]: Client authenticated: (KU_8EfLHmTK) 911403692
-[00:02:01]: [Steam] SendUserConnectAndAuthenticate for '76561198333137102'
-[00:02:01]: [Steam] Authenticated client '76561198333137102'
-[00:02:02]: There is no active event to validate against.
-[00:02:02]: [Shard] Completed incoming migration #2 for (KU_8EfLHmTK)
-[00:02:04]: Resuming user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000227
-[00:02:04]: 1223	
-[00:02:04]: Health:SetPenalty	false	
-[00:02:04]: Spawning player at: [Load] (322.71, 0.00, -269.89)	
-[00:02:31]: Activating portal[1] to 1	
-[00:02:32]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000229
-[00:02:32]: [Shard] Migration request: (KU_3Ep62gGa) to [SHDMASTER](1)
-[00:02:32]: [Shard] #3 <- session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000229
-[00:02:32]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[00:02:32]: [Steam] SendUserDisconnect for '76561199200776790'
-[00:02:37]: Resuming user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000227
-[00:02:37]: 1223	
-[00:02:37]: Spawning player at: [Load] (325.89, 0.00, -269.39)	
-[00:03:15]: [Shard] #4 -> session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000229
-[00:03:15]: [Shard] Received migration #4 data for (KU_3Ep62gGa)
-[00:03:19]: New incoming connection 211.162.81.112|41566 <3747338408762538095>
-[00:03:19]: Client connected from 211.162.81.112|41566 <3747338408762538095>
-[00:03:19]: ValidateGameSessionToken GUID<3747338408762538095>
-[00:03:20]: Client authenticated: (KU_3Ep62gGa) sxsbrueb
-[00:03:20]: [Steam] Authenticated host '76561199200776790'
-[00:03:20]: [Shard] Completed incoming migration #4 for (KU_3Ep62gGa)
-[00:03:38]: Resuming user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000229
-[00:03:38]: 1223	
-[00:03:38]: Health:SetPenalty	false	
-[00:03:38]: Player will spawn close to portal #1	
-[00:03:38]: Spawning player at: [Load] (357.40, 0.00, -277.68)	
-[00:04:12]: Could not find anim build FROMNUM
-[00:04:38]: Activating portal[1] to 1	
-[00:04:38]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000229
-[00:04:38]: [Shard] Migration request: (KU_3Ep62gGa) to [SHDMASTER](1)
-[00:04:38]: [Shard] #5 <- session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000229
-[00:04:38]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[00:04:38]: [Steam] SendUserDisconnect for '76561199200776790'
-[00:04:49]: Available disk space for save files: 18527 MB
-[00:04:49]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000229
-[00:04:50]: Serializing world: session/016F6A97DBD9F1D7/0000000229
-[00:06:42]: Could not find anim build FROMNUM
-[00:12:50]: Available disk space for save files: 18520 MB
-[00:12:50]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000230
-[00:12:50]: Serializing world: session/016F6A97DBD9F1D7/0000000230
-[00:13:32]: [Shard] #6 -> session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000231
-[00:13:32]: [Shard] Received migration #6 data for (KU_3Ep62ifT)
-[00:13:36]: New incoming connection 211.162.81.101|9759 <6500670822864222929>
-[00:13:36]: Client connected from 211.162.81.101|9759 <6500670822864222929>
-[00:13:36]: ValidateGameSessionToken GUID<6500670822864222929>
-[00:13:38]: Client authenticated: (KU_3Ep62ifT) lds
-[00:13:38]: [Steam] SendUserConnectAndAuthenticate for '76561199200781727'
-[00:13:38]: [Steam] Authenticated client '76561199200781727'
-[00:13:38]: [Shard] Completed incoming migration #6 for (KU_3Ep62ifT)
-[00:13:52]: Resuming user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000231
-[00:13:52]: 1223	
-[00:13:52]: Player will spawn close to portal #3	
-[00:13:52]: Spawning player at: [Load] (-234.10, 0.00, -472.65)	
-[00:13:54]: Could not find anim build FROMNUM
-[00:14:12]: Could not find anim build FROMNUM
-[00:14:17]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(goto(AllPlayers[0])) @(-234.58, -472.03)
-[00:14:17]: [string "goto(AllPlayers[0])"]:1: variable 'goto' is not declared
-[00:14:22]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(goto(AllPlayers[1])) @(-234.58, -472.03)
-[00:14:22]: [string "goto(AllPlayers[1])"]:1: variable 'goto' is not declared
-[00:14:27]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(goto(AllPlayers[2])) @(-234.58, -472.03)
-[00:14:27]: [string "goto(AllPlayers[2])"]:1: variable 'goto' is not declared
-[00:14:37]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(-234.58, -472.03)
-[00:14:41]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[1])) @(-234.58, -472.03)
-[00:15:19]: Could not find anim build FROMNUM
-[00:15:20]: Activating portal[1] to 1	
-[00:15:20]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000231
-[00:15:20]: [Shard] Migration request: (KU_3Ep62ifT) to [SHDMASTER](1)
-[00:15:20]: [Shard] #7 <- session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000231
-[00:15:20]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[00:15:20]: [Steam] SendUserDisconnect for '76561199200781727'
-[00:20:51]: Available disk space for save files: 18512 MB
-[00:20:51]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000231
-[00:20:51]: Serializing world: session/016F6A97DBD9F1D7/0000000231
-[00:28:52]: Available disk space for save files: 18488 MB
-[00:28:52]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000232
-[00:28:52]: Serializing world: session/016F6A97DBD9F1D7/0000000232
-[00:29:53]: [Shard] #8 -> session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000233
-[00:29:53]: [Shard] Received migration #8 data for (KU_3Ep62ifT)
-[00:29:58]: New incoming connection 211.162.81.101|39353 <350813826905258650>
-[00:29:58]: Client connected from 211.162.81.101|39353 <350813826905258650>
-[00:29:58]: ValidateGameSessionToken GUID<350813826905258650>
-[00:29:59]: Client authenticated: (KU_3Ep62ifT) lds
-[00:29:59]: [Steam] SendUserConnectAndAuthenticate for '76561199200781727'
-[00:29:59]: [Steam] Authenticated client '76561199200781727'
-[00:29:59]: [Shard] Completed incoming migration #8 for (KU_3Ep62ifT)
-[00:30:07]: [200] Account Communication Success (6)
-[00:30:07]: Received (KU_3Ep62gGa) from TokenPurpose
-[00:30:13]: Resuming user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000233
-[00:30:13]: 1223	
-[00:30:13]: Player will spawn close to portal #3	
-[00:30:13]: Spawning player at: [Load] (-236.76, 0.00, -473.96)	
-[00:30:22]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[1])) @(-238.14, -468.89)
-[00:30:38]: [Shard] #9 -> session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000233
-[00:30:38]: [Shard] Received migration #9 data for (KU_3Ep62gGa)
-[00:30:44]: New incoming connection 211.162.81.112|41728 <5832446973474051725>
-[00:30:44]: Client connected from 211.162.81.112|41728 <5832446973474051725>
-[00:30:44]: ValidateGameSessionToken GUID<5832446973474051725>
-[00:30:44]: Client authenticated: (KU_3Ep62gGa) sxsbrueb
-[00:30:45]: [Steam] Authenticated host '76561199200776790'
-[00:30:45]: [Shard] Completed incoming migration #9 for (KU_3Ep62gGa)
-[00:31:03]: Resuming user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000233
-[00:31:03]: 1223	
-[00:31:03]: Health:SetPenalty	false	
-[00:31:03]: Player will spawn close to portal #3	
-[00:31:03]: Spawning player at: [Load] (-233.82, 0.00, -471.41)	
-[00:31:18]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(-235.10, -471.13)
-[00:31:38]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(0.1)) @(68.61, -347.91)
-[00:32:49]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(1)) @(64.01, -342.14)
-[00:36:11]: Could not find anim build FROMNUM
-[00:36:13]: Could not find anim build FROMNUM
-[00:36:17]: Could not find anim build FROMNUM
-[00:36:21]: Could not find anim build FROMNUM
-[00:36:27]: Could not find anim build FROMNUM
-[00:36:30]: Could not find anim build FROMNUM
-[00:36:31]: Could not find anim build FROMNUM
-[00:36:37]: Activating portal[1] to 1	
-[00:36:38]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000233
-[00:36:38]: [Shard] Migration request: (KU_8EfLHmTK) to [SHDMASTER](1)
-[00:36:38]: [Shard] #10 <- session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000233
-[00:36:38]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[00:36:38]: [Steam] SendUserDisconnect for '76561198333137102'
-[00:36:52]: Available disk space for save files: 18480 MB
-[00:36:53]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000233
-[00:36:53]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000233
-[00:36:53]: Serializing world: session/016F6A97DBD9F1D7/0000000233
-[00:40:34]: Could not find anim build FROMNUM
-[00:44:49]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(0.1)) @(112.29, -156.00)
-[00:44:53]: Available disk space for save files: 18492 MB
-[00:44:54]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000234
-[00:44:54]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000234
-[00:44:54]: Serializing world: session/016F6A97DBD9F1D7/0000000234
-[00:45:21]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethealth(1)) @(122.45, -161.63)
-[00:45:49]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethunger(1)) @(125.66, -164.29)
-[00:48:18]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethealth(1)) @(135.90, -162.83)
-[00:50:18]: [Shard] #11 -> session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000235
-[00:50:18]: [Shard] Received migration #11 data for (KU_8EfLHmTK)
-[00:50:23]: New incoming connection 211.162.81.112|41729 <8506588855115813715>
-[00:50:23]: Client connected from 211.162.81.112|41729 <8506588855115813715>
-[00:50:23]: ValidateGameSessionToken GUID<8506588855115813715>
-[00:50:24]: Client authenticated: (KU_8EfLHmTK) 911403692
-[00:50:24]: [Steam] SendUserConnectAndAuthenticate for '76561198333137102'
-[00:50:24]: [Steam] Authenticated client '76561198333137102'
-[00:50:24]: [Shard] Completed incoming migration #11 for (KU_8EfLHmTK)
-[00:50:42]: Resuming user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000235
-[00:50:42]: 1223	
-[00:50:42]: Player will spawn close to portal #3	
-[00:50:42]: Spawning player at: [Load] (-238.82, 0.00, -471.33)	
-[00:51:04]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(1)) @(125.78, -159.02)
-[00:51:24]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("box")) @(-243.73, -464.11)
-[00:51:24]: Finding a 	box	
-[00:51:24]: Could not find any objects matching 'box'.	
-[00:51:34]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("storeroom")) @(-243.73, -464.11)
-[00:51:34]: Finding a 	storeroom	
-[00:51:34]: Could not find any objects matching 'storeroom'.	
-[00:52:04]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("treasurechest")) @(-234.75, -473.11)
-[00:52:04]: Finding a 	treasurechest	
-[00:52:04]: Found 105314 (1/1)	
-[00:52:30]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(71.81, -170.34)
-[00:52:31]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(85.68, -171.20)
-[00:52:33]: Could not find anim [death] in bank [ghost]
-[00:52:33]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000235
-[00:52:36]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[3])) @(69.75, -175.48)
-[00:52:54]: Available disk space for save files: 18484 MB
-[00:52:54]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000235
-[00:52:54]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000235
-[00:52:54]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000235
-[00:52:55]: Serializing world: session/016F6A97DBD9F1D7/0000000235
-[00:52:59]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_give("resurrectionstone")) @(88.35, -168.60)
-[00:52:59]: giving 	125182 - resurrectionstone	
-[00:52:59]: Warning: Can't give item because it's not an inventory item.	
-[00:53:02]: Could not find anim [idle_loop] in bank [ghost]
-[00:53:06]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000236
-[00:53:07]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[])) @(85.91, -169.08)
-[00:53:07]: attempt to call a nil value
-[00:53:14]: Could not find anim [death] in bank [ghost]
-[00:53:14]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000236
-[00:53:24]: Could not find anim build FROMNUM
-[00:53:41]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[3])) @(87.30, -167.51)
-[00:53:57]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_give("resurrectionstone")) @(350.86, -277.49)
-[00:53:57]: giving 	125620 - resurrectionstone	
-[00:53:57]: Warning: Can't give item because it's not an inventory item.	
-[00:54:05]: Could not find anim [idle_loop] in bank [ghost]
-[00:54:08]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000236
-[00:54:10]: Could not find anim build FROMNUM
-[00:54:45]: Could not find anim build FROMNUM
-[00:54:53]: Could not find anim build FROMNUM
-[00:54:56]: Could not find anim build FROMNUM
-[00:54:57]: Could not find anim build FROMNUM
-[00:54:59]: Could not find anim build FROMNUM
-[00:55:02]: Could not find anim build FROMNUM
-[00:55:05]: Could not find anim build FROMNUM
-[00:55:06]: Could not find anim build FROMNUM
-[00:55:08]: Could not find anim build FROMNUM
-[00:55:12]: Could not find anim build FROMNUM
-[00:55:14]: Could not find anim build FROMNUM
-[00:55:18]: Could not find anim build FROMNUM
-[00:55:48]: Could not find anim build FROMNUM
-[00:56:31]: Could not find anim build FROMNUM
-[00:56:43]: Could not find anim build FROMNUM
-[00:56:44]: Could not find anim build FROMNUM
-[00:56:46]: Could not find anim build FROMNUM
-[00:56:47]: Could not find anim build FROMNUM
-[00:59:15]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(1)) @(149.33, -137.36)
-[01:00:08]: [200] Account Communication Success (6)
-[01:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[01:00:55]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethealth(1)) @(107.65, -190.27)
-[01:00:55]: Available disk space for save files: 18484 MB
-[01:00:55]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000236
-[01:00:55]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000236
-[01:00:55]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000236
-[01:00:56]: Serializing world: session/016F6A97DBD9F1D7/0000000236
-[01:04:52]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto("axe")) @(181.77, -106.77)
-[01:05:02]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("icebox")) @(167.95, -99.86)
-[01:05:02]: Finding a 	icebox	
-[01:05:02]: Found 125174 (1/1)	
-[01:05:05]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_gonext("axe")) @(181.77, -106.77)
-[01:05:05]: Finding a 	axe	
-[01:05:05]: Found 116563 (1/1)	
-[01:05:09]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[3])) @(115.84, -183.98)
-[01:05:42]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(321.90, -266.05)
-[01:05:44]: Could not find anim build FROMNUM
-[01:06:05]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_goto(AllPlayers[1])) @(328.10, -266.56)
-[01:06:05]: Could not find anim build FROMNUM
-[01:06:19]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(0.1)) @(188.62, -101.62)
-[01:08:56]: Available disk space for save files: 18480 MB
-[01:08:56]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000237
-[01:08:56]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000237
-[01:08:56]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000237
-[01:08:57]: Serializing world: session/016F6A97DBD9F1D7/0000000237
-[01:10:05]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(1)) @(217.24, -69.33)
-[01:13:35]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethealth(1)) @(299.01, -79.23)
-[01:16:37]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(0.1)) @(161.66, -100.78)
-[01:16:57]: Available disk space for save files: 18477 MB
-[01:16:57]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000238
-[01:16:57]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000238
-[01:16:57]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000238
-[01:16:58]: Serializing world: session/016F6A97DBD9F1D7/0000000238
-[01:18:29]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethealth(1)) @(137.10, -78.62)
-[01:18:36]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(1)) @(136.32, -87.24)
-[01:20:37]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("icebox")) @(42.00, -103.82)
-[01:20:37]: Finding a 	icebox	
-[01:20:37]: Found 125174 (1/1)	
-[01:20:56]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[3])) @(49.36, -90.34)
-[01:21:10]: Could not find anim build FROMNUM
-[01:21:23]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(320.91, -271.68)
-[01:21:26]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[1])) @(313.39, -269.64)
-[01:21:26]: Could not find anim build FROMNUM
-[01:21:46]: Could not find anim build FROMNUM
-[01:22:05]: Could not find anim build FROMNUM
-[01:22:48]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(0.1)) @(31.14, -28.84)
-[01:23:35]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethunger(1)) @(33.35, -26.14)
-[01:24:58]: Available disk space for save files: 18473 MB
-[01:24:58]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000239
-[01:24:58]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000239
-[01:24:58]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000239
-[01:24:58]: Serializing world: session/016F6A97DBD9F1D7/0000000239
-[01:25:09]: Could not find anim build FROMNUM
-[01:25:42]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethealth(1)) @(-4.15, -52.42)
-[01:25:45]: Could not find anim build FROMNUM
-[01:29:04]: Could not find anim build FROMNUM
-[01:29:32]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(1)) @(-35.51, -164.98)
-[01:29:55]: Could not find anim build FROMNUM
-[01:29:57]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(-33.40, -158.37)
-[01:30:01]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[3])) @(-34.37, -155.33)
-[01:30:08]: [200] Account Communication Success (6)
-[01:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[01:30:27]: Could not find anim build FROMNUM
-[01:31:06]: Could not find anim build FROMNUM
-[01:32:08]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(352.74, -293.69)
-[01:32:25]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[1])) @(-47.62, -165.58)
-[01:32:27]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(-43.04, -149.46)
-[01:32:30]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[3])) @(-42.98, -149.46)
-[01:32:59]: Available disk space for save files: 18469 MB
-[01:32:59]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000240
-[01:32:59]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000240
-[01:32:59]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000240
-[01:32:59]: Serializing world: session/016F6A97DBD9F1D7/0000000240
-[01:33:18]: Could not find anim build FROMNUM
-[01:33:36]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(318.77, -276.56)
-[01:33:40]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_goto(AllPlayers[1])) @(318.55, -276.80)
-[01:34:23]: Could not find anim build FROMNUM
-[01:34:31]: Could not find anim build FROMNUM
-[01:34:33]: Could not find anim build FROMNUM
-[01:34:52]: Could not find anim build FROMNUM
-[01:36:18]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethealth(1)) @(-223.96, -397.57)
-[01:36:28]: Could not find anim build FROMNUM
-[01:36:32]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethunger(1)) @(-225.31, -424.57)
-[01:36:48]: Could not find anim build FROMNUM
-[01:37:03]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[3])) @(-291.20, -546.58)
-[01:37:32]: [(KU_3Ep62ifT) lds] ReceiveRemoteExecute(c_goto(AllPlayers[2])) @(318.54, -268.25)
-[01:40:05]: Could not find anim build FROMNUM
-[01:40:52]: Could not find anim build FROMNUM
-[01:40:59]: Available disk space for save files: 18465 MB
-[01:41:00]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000241
-[01:41:00]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000241
-[01:41:00]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000241
-[01:41:00]: Serializing world: session/016F6A97DBD9F1D7/0000000241
-[01:42:04]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_goto(AllPlayers[1])) @(313.33, -272.54)
-[01:42:47]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethealth(1)) @(-244.93, -366.51)
-[01:44:07]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_setsanity(1)) @(-205.77, -345.00)
-[01:44:22]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("icebox")) @(-190.94, -305.36)
-[01:44:22]: Finding a 	icebox	
-[01:44:22]: Found 125174 (1/1)	
-[01:44:41]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_goto(AllPlayers[1])) @(310.66, -295.95)
-[01:44:57]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("icebox")) @(-124.96, -335.71)
-[01:44:57]: Finding a 	icebox	
-[01:44:57]: Found 125174 (1/1)	
-[01:46:18]: Could not find anim build FROMNUM
-[01:46:42]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("researchlab")) @(316.24, -278.84)
-[01:46:42]: Finding a 	researchlab	
-[01:46:42]: Found 109548 (1/1)	
-[01:46:46]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_goto(AllPlayers[1])) @(316.87, -277.77)
-[01:49:00]: Available disk space for save files: 18461 MB
-[01:49:01]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000242
-[01:49:01]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000242
-[01:49:01]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000242
-[01:49:01]: Serializing world: session/016F6A97DBD9F1D7/0000000242
-[01:50:17]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethealth(1)) @(-24.25, -204.02)
-[01:50:20]: [(KU_3Ep62gGa) sxsbrueb] ReceiveRemoteExecute(c_sethunger(1)) @(-24.25, -204.02)
-[01:51:32]: Could not find anim build FROMNUM
-[01:51:39]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("researchlab")) @(-27.30, -193.74)
-[01:51:39]: Finding a 	researchlab	
-[01:51:39]: Found 148736 (2/2)	
-[01:51:40]: Could not find anim build FROMNUM
-[01:51:44]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("researchlab")) @(-30.57, -189.05)
-[01:51:44]: Finding a 	researchlab	
-[01:51:44]: Found 109548 (1/2)	
-[01:52:04]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("researchlab")) @(320.89, -268.66)
-[01:52:04]: Finding a 	researchlab	
-[01:52:04]: Found 148736 (2/2)	
-[01:53:14]: Could not find anim build FROMNUM
-[01:53:22]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("researchlab")) @(-29.12, -217.19)
-[01:53:22]: Finding a 	researchlab	
-[01:53:22]: Found 109548 (1/2)	
-[01:53:22]: Could not find anim build FROMNUM
-[01:53:40]: [(KU_8EfLHmTK) 911403692] ReceiveRemoteExecute(c_gonext("researchlab")) @(328.88, -265.69)
-[01:53:40]: Finding a 	researchlab	
-[01:53:40]: Found 148736 (1/1)	
-[01:54:07]: Could not find anim build FROMNUM
-[01:54:10]: Could not find anim build FROMNUM
-[01:54:18]: Could not find anim build FROMNUM
-[01:54:19]: Could not find anim build FROMNUM
-[01:55:32]: Could not find anim build FROMNUM
-[01:57:01]: Available disk space for save files: 18457 MB
-[01:57:02]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000243
-[01:57:02]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000243
-[01:57:02]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000243
-[01:57:02]: Serializing world: session/016F6A97DBD9F1D7/0000000243
-[01:57:04]: Could not find anim build FROMNUM
-[01:57:06]: Could not find anim build FROMNUM
-[01:57:07]: Could not find anim build FROMNUM
-[02:00:08]: [200] Account Communication Success (6)
-[02:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[02:00:09]: Could not find anim build FROMNUM
-[02:00:18]: Could not find anim build FROMNUM
-[02:01:36]: Could not find anim build FROMNUM
-[02:02:22]: Could not find anim [death] in bank [ghost]
-[02:02:22]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000244
-[02:02:44]: [Steam] SendUserDisconnect for '76561199200781727'
-[02:02:44]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000244
-[02:03:10]: [Steam] SendUserDisconnect for '76561198333137102'
-[02:03:10]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000244
-[02:03:25]: Server Autopaused	
-[02:03:29]: Server Unpaused	
-[02:03:30]: [Steam] SendUserDisconnect for '76561199200776790'
-[02:03:31]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000244
-[02:03:31]: Sim paused
-[02:30:11]: [200] Account Communication Success (6)
-[02:30:11]: Received (KU_3Ep62gGa) from TokenPurpose
-[03:00:08]: [200] Account Communication Success (6)
-[03:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[03:30:08]: [200] Account Communication Success (6)
-[03:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[04:00:08]: [200] Account Communication Success (6)
-[04:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[04:30:08]: [200] Account Communication Success (6)
-[04:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[05:00:08]: [200] Account Communication Success (6)
-[05:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[05:30:11]: [200] Account Communication Success (6)
-[05:30:11]: Received (KU_3Ep62gGa) from TokenPurpose
-[06:00:08]: [200] Account Communication Success (6)
-[06:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[06:30:09]: [200] Account Communication Success (6)
-[06:30:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[07:00:11]: [200] Account Communication Success (6)
-[07:00:11]: Received (KU_3Ep62gGa) from TokenPurpose
-[07:30:09]: [200] Account Communication Success (6)
-[07:30:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[08:00:09]: [200] Account Communication Success (6)
-[08:00:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[08:30:08]: [200] Account Communication Success (6)
-[08:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[09:00:08]: [200] Account Communication Success (6)
-[09:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[09:30:08]: [200] Account Communication Success (6)
-[09:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[10:00:08]: [200] Account Communication Success (6)
-[10:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[10:30:09]: [200] Account Communication Success (6)
-[10:30:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[11:00:09]: [200] Account Communication Success (6)
-[11:00:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[11:30:09]: [200] Account Communication Success (6)
-[11:30:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[12:00:08]: [200] Account Communication Success (6)
-[12:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[12:30:08]: [200] Account Communication Success (6)
-[12:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[13:00:08]: [200] Account Communication Success (6)
-[13:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[13:30:08]: [200] Account Communication Success (6)
-[13:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[14:00:09]: [200] Account Communication Success (6)
-[14:00:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[14:30:08]: [200] Account Communication Success (6)
-[14:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[15:00:08]: [200] Account Communication Success (6)
-[15:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[15:30:08]: [200] Account Communication Success (6)
-[15:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[16:00:08]: [200] Account Communication Success (6)
-[16:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[16:30:08]: [200] Account Communication Success (6)
-[16:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[17:00:10]: [200] Account Communication Success (6)
-[17:00:10]: Received (KU_3Ep62gGa) from TokenPurpose
-[17:30:09]: [200] Account Communication Success (6)
-[17:30:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[18:00:09]: [200] Account Communication Success (6)
-[18:00:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[18:30:08]: [200] Account Communication Success (6)
-[18:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[19:00:09]: [200] Account Communication Success (6)
-[19:00:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[19:30:09]: [200] Account Communication Success (6)
-[19:30:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[20:00:08]: [200] Account Communication Success (6)
-[20:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[20:30:08]: [200] Account Communication Success (6)
-[20:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[21:00:09]: [200] Account Communication Success (6)
-[21:00:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[21:31:08]: [504] Account Failed (6): ""
-[21:31:08]: [Warning] Empty error code received, dumping response:
-[21:31:08]: <html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
-
-[21:31:08]: [Connect] PendingConnection::Reset(true)
-[22:01:08]: [504] Account Failed (6): ""
-[22:01:08]: [Warning] Empty error code received, dumping response:
-[22:01:08]: <html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
-
-[22:01:08]: [Connect] PendingConnection::Reset(true)
-[22:30:08]: [200] Account Communication Success (6)
-[22:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[23:00:08]: [200] Account Communication Success (6)
-[23:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[23:31:08]: [504] Account Failed (6): ""
-[23:31:08]: [Warning] Empty error code received, dumping response:
-[23:31:08]: <html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
-
-[23:31:08]: [Connect] PendingConnection::Reset(true)
-[00:00:08]: [200] Account Communication Success (6)
-[00:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[00:30:08]: [200] Account Communication Success (6)
-[00:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[01:00:08]: [200] Account Communication Success (6)
-[01:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[01:30:08]: [200] Account Communication Success (6)
-[01:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[02:00:08]: [200] Account Communication Success (6)
-[02:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[02:30:08]: [200] Account Communication Success (6)
-[02:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[03:00:08]: [200] Account Communication Success (6)
-[03:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[03:30:08]: [200] Account Communication Success (6)
-[03:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[04:00:08]: [200] Account Communication Success (6)
-[04:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[04:30:11]: [200] Account Communication Success (6)
-[04:30:11]: Received (KU_3Ep62gGa) from TokenPurpose
-[05:00:09]: [200] Account Communication Success (6)
-[05:00:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[05:30:08]: [200] Account Communication Success (6)
-[05:30:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[06:00:09]: [200] Account Communication Success (6)
-[06:00:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[06:30:10]: [200] Account Communication Success (6)
-[06:30:10]: Received (KU_3Ep62gGa) from TokenPurpose
-[07:00:08]: [200] Account Communication Success (6)
-[07:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[07:30:09]: [200] Account Communication Success (6)
-[07:30:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[08:00:08]: [200] Account Communication Success (6)
-[08:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[08:30:09]: [200] Account Communication Success (6)
-[08:30:09]: Received (KU_3Ep62gGa) from TokenPurpose
-[09:00:08]: [200] Account Communication Success (6)
-[09:00:08]: Received (KU_3Ep62gGa) from TokenPurpose
-[09:30:09]: [200] Account Communication Success (6)
-[09:30:09]: Received (KU_3Ep62gGa) from TokenPurpose
+[00:00:29]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_1.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_2.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_3.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_4.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_5.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_6.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_7.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_8.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_9.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_10.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_11.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_12.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_13.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_14.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_15.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_16.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_17.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_18.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_19.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_20.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_21.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_22.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-623749604/minimap/storeroom.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:29]: Loading 19 new character(s)	
+[00:00:30]: Total 19 character(s) loaded	
+[00:00:37]: Loading Nav Grid	
+[00:00:37]: World generated on build 551676 with save version: 5.141, using seed: 1681418949	
+[00:00:37]: setting 	summerlength	15	
+[00:00:37]: setting 	cavemoonphase	threequarter	
+[00:00:37]: setting 	iscavefullmoon	false	
+[00:00:37]: setting 	isnightmaredawn	false	
+[00:00:37]: setting 	elapseddaysinseason	18	
+[00:00:37]: setting 	isfullmoon	false	
+[00:00:37]: setting 	moisture	4682.658203125	
+[00:00:37]: setting 	cavephase	day	
+[00:00:37]: setting 	iscavewaxingmoon	true	
+[00:00:37]: setting 	isnightmarewild	true	
+[00:00:37]: setting 	nightmaretimeinphase	0.56137371017874	
+[00:00:37]: setting 	precipitationrate	0	
+[00:00:37]: setting 	iswet	false	
+[00:00:37]: setting 	isnewmoon	false	
+[00:00:37]: setting 	precipitation	none	
+[00:00:37]: setting 	israining	false	
+[00:00:37]: setting 	isnightmarewarn	false	
+[00:00:37]: setting 	iswinter	false	
+[00:00:37]: setting 	season	autumn	
+[00:00:37]: setting 	remainingdaysinseason	2	
+[00:00:37]: setting 	winterlength	15	
+[00:00:37]: setting 	iscaveday	true	
+[00:00:37]: setting 	moistureceil	7551.2885742188	
+[00:00:37]: setting 	isday	false	
+[00:00:37]: setting 	springlength	20	
+[00:00:37]: setting 	wetness	0	
+[00:00:37]: setting 	iscavedusk	false	
+[00:00:37]: setting 	isalterawake	false	
+[00:00:37]: setting 	isnightmarecalm	false	
+[00:00:37]: setting 	isnight	true	
+[00:00:37]: setting 	isdusk	false	
+[00:00:37]: setting 	isspring	false	
+[00:00:37]: setting 	isautumn	true	
+[00:00:37]: setting 	issnowing	false	
+[00:00:37]: setting 	iswaxingmoon	true	
+[00:00:37]: setting 	phase	night	
+[00:00:37]: setting 	snowlevel	0	
+[00:00:37]: setting 	issnowcovered	false	
+[00:00:37]: setting 	autumnlength	20	
+[00:00:37]: setting 	pop	0.34520087357003	
+[00:00:37]: setting 	nightmaretime	534.20605652681	
+[00:00:37]: setting 	seasonprogress	0.9	
+[00:00:37]: setting 	moonphase	new	
+[00:00:37]: setting 	nightmarephase	wild	
+[00:00:37]: setting 	cycles	228	
+[00:00:37]: setting 	timeinphase	0.0049245198567708	
+[00:00:37]: setting 	iscavenight	false	
+[00:00:37]: setting 	iscavenewmoon	false	
+[00:00:37]: setting 	issummer	false	
+[00:00:37]: setting 	temperature	5.9030097356523	
+[00:00:37]: setting 	time	0.0021544774373372	
+[00:00:37]: [Shard] Secondary shard is waiting for LUA...
+[00:00:37]: OVERRIDE: setting	resettime	to	none	
+[00:00:37]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:37]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:37]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:40]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:40]: Some objects are not supported by the mod.	
+[00:00:40]: Unknown objects: daywalker	
+[00:00:40]: You can enable these objects if you change the option "Unknown Objects".	
+[00:00:40]: See more info at http://steamcommunity.com/workshop/filedetails/discussion/375859599/343787283764426976/	
+[00:00:40]: --------------------------------------------------------	
+[00:00:47]: SWITCHING 	false	
+[00:00:47]: Reconstructing topology	
+[00:00:47]: 	...Sorting points	
+[00:00:47]: 	...Sorting edges	
+[00:00:47]: 	...Connecting nodes	
+[00:00:47]: 	...Validating connections	
+[00:00:47]: 	...Housekeeping	
+[00:00:47]: 	...Done!	
+[00:00:47]: Truncating to snapshot #272...
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000245
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000257
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000252
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000262
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000259
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000256
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000246
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000255
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000253
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000251
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000261
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000266
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000244
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000263
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000254
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000240
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000241
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000250
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000260
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000258
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000264
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000242
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000239
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000265
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000243
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000247
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000249
+[00:00:47]:  - session/016F6A97DBD9F1D7/0000000248
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000273
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000266
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000265
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000264
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000263
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000262
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000261
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000260
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000259
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000251
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000250
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000249
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000248
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000247
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000246
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000245
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000244
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000243
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000242
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000241
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000240
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000239
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000273
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000266
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000265
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000264
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000263
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000262
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000261
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000260
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000259
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000251
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000250
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000249
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000248
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000247
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000246
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000245
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000244
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000243
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000242
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000241
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000240
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000239
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000273
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000266
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000265
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000264
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000263
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000262
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000261
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000260
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000259
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000258
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000257
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000256
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000255
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000254
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000253
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000252
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000251
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000250
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000249
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000248
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000247
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000246
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000245
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000244
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000243
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000242
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000241
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000240
+[00:00:47]:  - session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000239
+[00:00:47]:    101 file(s) removed
+[00:00:47]: Restoring user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000272	
+[00:00:48]: 1223	
+[00:00:48]: Restoring user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000272	
+[00:00:48]: 1223	
+[00:00:48]: Restoring user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000272	
+[00:00:48]: 1223	
+[00:00:48]: Health:SetPenalty	false	
+[00:00:48]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000273
+[00:00:48]: Serializing user: session/016F6A97DBD9F1D7/A7GCTJ30LIIT/0000000273
+[00:00:48]: Serializing user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000273
+[00:00:48]: 1 uploads added to server. From server_temp
+[00:00:48]: About to start a shard with these settings:
+[00:00:48]:   ShardName: Caves
+[00:00:48]:   ShardID: 4009938005
+[00:00:48]:   ShardRole: SECONDARY
+[00:00:48]:   MasterHost: 127.0.0.1
+[00:00:48]:   MasterBind: (null)
+[00:00:48]:   MasterPort: 10998
+[00:00:48]: [Shard] Connecting to master...
+[00:00:48]: Telling Client our new session identifier: 016F6A97DBD9F1D7
+[00:00:48]: Check for write access: TRUE
+[00:00:48]: Check for read access: TRUE
+[00:00:48]: Available disk space for save files: 18891 MB
+[00:00:48]: ModIndex: Load sequence finished successfully.	
+[00:00:48]: Reset() returning
+[00:00:48]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:00:49]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:49]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:49]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:49]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:49]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:49]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:49]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:49]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:49]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:49]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:49]: Could not find anim build FROMNUM
+[00:00:49]: Could not find anim build FROMNUM
+[00:00:49]: Could not find anim build FROMNUM
+[00:00:49]: Could not find anim build FROMNUM
+[00:00:49]: Could not find anim build FROMNUM
+[00:00:53]: About to start a shard with these settings:
+[00:00:53]:   ShardName: Caves
+[00:00:53]:   ShardID: 4009938005
+[00:00:53]:   ShardRole: SECONDARY
+[00:00:53]:   MasterHost: 127.0.0.1
+[00:00:53]:   MasterBind: (null)
+[00:00:53]:   MasterPort: 10998
+[00:00:53]: [Shard] Connecting to master...
+[00:00:53]: [Shard] Sending secondary shard information to master...
+[00:00:53]: Received MasterInfoPacket row 64a4fed44c07afbfe6080c088a7b249c region ap-east-1
+[00:00:53]: Obtaining secondary shard IP from ap-east-1 lobby
+[00:00:55]: [Shard] secondary shard is now ready!
+[00:00:55]: World 1 is now connected	
+[00:00:55]: [SyncWorldSettings] Sending ResyncWorldSettings.	
+[00:00:55]: Validating portal[4] <-> 1[4] (active)	
+[00:00:55]: Validating portal[3] <-> 1[3] (active)	
+[00:00:55]: Validating portal[7] <-> 1[7] (active)	
+[00:00:55]: Validating portal[1] <-> 1[1] (active)	
+[00:00:55]: Validating portal[5] <-> 1[5] (active)	
+[00:00:55]: Validating portal[10] <-> 1[10] (active)	
+[00:00:55]: Validating portal[6] <-> 1[6] (active)	
+[00:00:55]: Validating portal[9] <-> 1[9] (active)	
+[00:00:55]: Validating portal[2] <-> 1[2] (active)	
+[00:00:55]: Validating portal[8] <-> 1[8] (active)	
+[00:00:55]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:55]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:55]: component hauntable already exists on entity 104711 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:55]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:00:55]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:00:55]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:00:55]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:55]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:55]: component hauntable already exists on entity 104711 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:55]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:00:55]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:00:55]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:00:56]: [Shard] secondary shard LUA is now ready!
+[00:00:56]: Sim paused
+[00:01:21]: [Shard] Received forward request #1 for (KU_3Ep62gGa)
+[00:01:21]: Sim unpaused
+[00:01:28]: [P2P] Session request for '76561199200776790'
+[00:01:28]: New incoming connection 211.162.81.84|30752 <3052156736869572169>
+[00:01:28]: Client connected from 211.162.81.84|30752 <3052156736869572169>
+[00:01:28]: ValidateGameSessionToken GUID<3052156736869572169>
+[00:01:29]: Client authenticated: (KU_3Ep62gGa) sxsbrueb
+[00:01:29]: [Steam] Authenticated host '76561199200776790'
+[00:01:30]: There is no active event to validate against.
+[00:01:30]: [Shard] Completed incoming migration #1 for (KU_3Ep62gGa)
+[00:01:33]: [P2P] Create session: 1.156.77.60|1 '76561199200776790'
+[00:01:33]: [P2P] Received from 1.156.77.60|1 '76561199200776790'
+[00:01:33]: [P2P] Sent to 1.156.77.60|1 '76561199200776790'
+[00:02:07]: Resuming user: session/016F6A97DBD9F1D7/A7GCTJ30L914/0000000273
+[00:02:07]: 1223	
+[00:02:07]: Health:SetPenalty	false	
+[00:02:07]: Spawning player at: [Load] (-25.12, 0.00, -196.70)	
+[00:02:18]: Server Autopaused	
+[00:02:19]: Server Unpaused	
+[00:02:19]: Server Autopaused	
+[00:02:20]: Server Unpaused	
+[00:02:21]: Server Autopaused	
+[00:02:28]: Server Unpaused	
+[00:02:42]: [Shard] Received forward request #2 for (KU_8EfLHmTK)
+[00:02:47]: New incoming connection 211.162.81.112|54803 <1194653009476787494>
+[00:02:47]: Client connected from 211.162.81.112|54803 <1194653009476787494>
+[00:02:47]: ValidateGameSessionToken GUID<1194653009476787494>
+[00:02:48]: Client authenticated: (KU_8EfLHmTK) 911403692
+[00:02:48]: [Steam] SendUserConnectAndAuthenticate for '76561198333137102'
+[00:02:49]: [Steam] Authenticated client '76561198333137102'
+[00:02:50]: There is no active event to validate against.
+[00:02:50]: [Shard] Completed incoming migration #2 for (KU_8EfLHmTK)
+[00:03:24]: Resuming user: session/016F6A97DBD9F1D7/A7H0T9AKE1QK/0000000273
+[00:03:24]: 1223	
+[00:03:24]: Spawning player at: [Load] (-366.75, 0.00, 259.03)	
