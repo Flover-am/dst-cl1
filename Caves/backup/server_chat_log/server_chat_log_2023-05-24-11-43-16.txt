@@ -1,0 +1,4 @@
+[00:01:52]: [Join Announcement] sxsbrueb
+[00:03:11]: [Join Announcement] 911403692
+[00:08:01]: [Leave Announcement] 911403692
+[00:10:43]: [Leave Announcement] sxsbrueb
